@@ -1,0 +1,7 @@
+Assignment 1:
+Create a new MVC solution and include attached CSS & JS files in it. Install YUICompressor.NET package in to the solution.Write a custom HTTPHandler which would handle all css & js file requests. When a request is made for main.css HTTPHandler should combine all three chrome.css, ie.css and firefox.css in to a single css file and render the combined css in minified format. Depending on the browser HTTPHandler should load respective js file. For example, if we use chrome to load home page, chrome.js should be rendered in the view. Include a mechanism to ensure that the above only do their magic when the application is not in debug mode.
+
+
+Assignment 2:
+Create a new MVC controller and a view with a file upload control. When we select attached Employee.txt in file upload control and submit, create an Employee and Department list. Employee list should contain all employee details from attached file and Department list should contain unique Department names with auto increment ids. Convert both lists in to JSon format and display Json result of list of employees and list of departments in two different labels in view.
+
